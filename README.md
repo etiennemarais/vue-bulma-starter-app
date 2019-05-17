@@ -1,4 +1,4 @@
-# prototype_rc
+# vue-bulma-starter-app
 
 ## Project setup
 ```
@@ -13,6 +13,7 @@ yarn run serve
 ### Compiles and minifies for production
 ```
 yarn run build
+yarn start # To test locally using a http-server
 ```
 
 ### Run your tests
