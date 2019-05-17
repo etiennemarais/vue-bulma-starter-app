@@ -1,0 +1,24 @@
+.home {
+    .hero {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.8)
+          ), url('/img/responsive/kara-eads-1297668-unsplash_w_2180.jpg') no-repeat 45% 45%;
+        background-color: $grey-darker;
+    }
+
+    h1 {
+        font-family: $family-black;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-family: $family-black;
+        font-weight: 800;
+    }
+}

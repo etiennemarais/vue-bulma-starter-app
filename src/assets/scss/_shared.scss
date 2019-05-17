@@ -1,0 +1,45 @@
+// Import business fonts
+@import "_fonts";
+
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+
+$border: $grey-lighter !default;
+@import "node_modules/bulma/sass/utilities/mixins";
+
+// Import Business main color scheme
+@import "_colours";
+
+/** Application variables and overrides */
+$family-primary: "Avenir-Book", -apple-system, system-ui, "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-light: "Avenir-Light", -apple-system, system-ui, "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-medium: "Avenir-Medium", -apple-system, system-ui, "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-heavy: "Avenir-Heavy", -apple-system, system-ui, "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$family-black: "Avenir-Black", -apple-system, system-ui, "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$body-background-color: hsl(0, 0%, 99%) !default;
+$body-size: 16px !default;
+$body-rendering: optimizeLegibility !default;
+$body-family: $family-primary !default;
+$body-color: $grey-heading !default;
+$body-line-height: 1.618 !default;
+
+$hr-background-color: hsl(0, 0%, 95%) !default;
+$hr-height: 1px !default;
+
+$table-background-color: $body-background-color !default;
+$table-cell-border: 0 !default;
+$table-cell-padding: 0.5em 0;
+
+$weight-hairline: 100 !default;
+$weight-lighter: 200 !default;
+
+/* Framework overrides */
+$navbar-box-shadow-size: 0;
+
+@import "node_modules/bulma/sass/utilities/derived-variables";
+@import "node_modules/bulma/sass/utilities/controls";
+@import "node_modules/bulma/sass/utilities/animations";
+
+/** Framework overrides */
+$link: $grey-heading;
+$ultra-widescreen: 1680px + (2 * $gap) !default;

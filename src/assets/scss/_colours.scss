@@ -1,0 +1,6 @@
+$grey-lightest: hsl(0, 0%, 95%) !default;
+$grey-heading: hsl(0, 0%, 28%) !default; //#484848
+
+.has-background-grey-lightest {
+    background-color: $grey-lightest;
+}
